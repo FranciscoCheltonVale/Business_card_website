@@ -1,0 +1,123 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <html lang="en">
+        <style>
+            img{
+                position: absolute;
+                left:0;
+                top: 20;
+
+            }
+            
+            * {
+              box-sizing: border-box;
+            }
+            
+            body {
+              font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            /* Style the header */
+            header {
+              background-color: #666;
+              padding: 30px;
+              text-align: center;
+              font-size: 35px;
+              color: white;
+            }
+            
+            /* Create two columns/boxes that floats next to each other */
+            nav {
+              float: left;
+              width: 30%;
+              height: 400px; 
+              background: #ccc;
+              padding: 30px;
+            }
+            
+      
+            
+            article {
+              float: left;
+              padding: 50px;
+              width: 70%;
+              background-color: #fbff00;
+              height: 400px;
+              
+            }
+            
+            /* Clear floats after the columns */
+            section::after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            
+            /* Style the footer */
+            footer {
+              background-color: rgb(220, 8, 8);
+              padding: 300px;
+              width: 100%;
+              text-align: center;
+              color: white;
+            }
+            
+            
+            @media (max-width: 800px) {
+              nav, article {
+                width: 100%;
+                height: auto;
+              }
+            }
+            </style>
+           
+            
+
+</head>
+<body style="background-color:cyan;">
+
+    <header>
+        <h2>Francisco Vale</h2>
+        <hr>
+      </header>
+  
+<section>
+    <nav>
+         <img src="IMG-6215.jpg" style="width:400px;height:400px;" id="img">
+    </nav>
+    <article>
+        <h1>My professional interests</h1>
+        <ul>
+            <li>Configure Cisco and Mikrotik routers</li>
+            <li>Develop web applications</li> 
+            <li>Create and develop database in companies and institutions</li>
+          </ul> 
+          <h1>My hobbies</h1>
+        <ul>
+            <li>Play soccer</li>
+            <li>Photograph</li> 
+            <li>Practice Taekwondo</li>
+            <li>To design</li>
+            <li>Listen to music</li>
+          </ul> 
+      </article>
+      <br>
+      <br>
+      <footer>
+    
+            <p >Email_address: dovale622@gmail.com <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDbtsMpDVkLhGdXFTNdslCFGPhxqlJWfnJPCGjSpSdSbTFLvcXdqLNtjtsQQqCbDPlVdmQZ">(Send email)</a></p>
+            <p>Tell: 998375278</p>
+            <p><address>Dom Campos, 25, Portugal, 7800-631</address> </p>
+      </footer>
+
+
+
+</body>
+
+
+
+
+</html>
